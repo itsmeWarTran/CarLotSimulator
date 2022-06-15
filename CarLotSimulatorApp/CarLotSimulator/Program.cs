@@ -59,6 +59,9 @@ namespace CarLotSimulator
                 c.MakeHonkNoise();
                 Console.WriteLine("");
             }
+
+            var num = new NumberOfCars();
+            num.numCars(carLot.ParkingLot.Count);
         }
     }
 }
